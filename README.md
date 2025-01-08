@@ -71,7 +71,7 @@ docker run -d --name elasticsearch -p 9200:9200 -e "discovery.type=single-node" 
   
 ## Conclusiones
 
-Este proyecto demuestra el poder de las herramientas de indexación y recuperación, desde enfoques simples hasta soluciones escalables como Elasticsearch. A través de cada parte del proyecto, hemos aprendido cómo construir y mejorar índices, manejar grandes volúmenes de datos y realizar consultas eficientes.
+A través de cada parte del proyecto, hemos aprendido cómo construir y mejorar índices, manejar grandes volúmenes de datos y realizar consultas eficientes.
 
 ### Consideraciones finales
 
