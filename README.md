@@ -61,13 +61,6 @@ docker run -d --name elasticsearch -p 9200:9200 -e "discovery.type=single-node" 
 4. **Indexación de Datos en Elasticsearch**: Cada película se indexa en Elasticsearch, utilizando su título como identificador único.
 5. **Consultas en Elasticsearch**: Se implementa una función para realizar consultas sobre el índice de Elasticsearch y recuperar los títulos de las películas que coinciden con una consulta de texto.
 
-## Ejemplo de Uso
-
-1. **Cargar los datos**:
-   Se carga el archivo CSV de películas y tramas utilizando `pandas.read_csv`.
-2. **Realizar consultas**:
-3. **Indexación con Whoosh**:
-4. **Indexación con Elasticsearch**:
   
 ## Conclusiones
 
